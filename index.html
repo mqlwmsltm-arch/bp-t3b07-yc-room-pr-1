@@ -1,213 +1,794 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>인문 철학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --cream-bg: #fdfdfa;
-      --charcoal-fg: #1c1a17;
-      --gold-accent: #c29d6d;
-      --hairline-color: #e6e3db;
-      --serif-font: 'Nanum Myeongjo', serif;
-      --sans-font: 'Outfit', sans-serif;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>염창 룸싸롱 가격 | 프리미엄 룸싸롱 추천</title>
+    <meta name="description" content="염창 룸싸롱 가격, 분위기, 후기까지 한눈에! 염창역 근방 프리미엄 룸싸롱 정보와 실제 이용자 리뷰를 확인하고 합리적인 선택을 도와드립니다.">
+    <meta name="keywords" content="염창 룸싸롱, 염창 룸싸롱 가격, 염창룸싸롱, 염창 유흥, 염창 술집, 강서구 룸싸롱, 염창역 룸싸롱">
+    <link rel="canonical" href="https://t3b07-yc-room-pr-1.vercel.app/">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-ivory-ink">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b07-yc-room-pr-1.vercel.app/">
+    <meta property="og:title" content="염창 룸싸롱 가격 | 프리미엄 룸싸롱 추천">
+    <meta property="og:description" content="염창 룸싸롱 가격, 분위기, 후기까지 한눈에! 염창역 근방 프리미엄 룸싸롱 정보와 실제 이용자 리뷰를 확인하세요.">
+    <meta property="og:image" content="og-image.svg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://t3b07-yc-room-pr-1.vercel.app/">
+    <meta property="twitter:title" content="염창 룸싸롱 가격 | 프리미엄 룸싸롱 추천">
+    <meta property="twitter:description" content="염창 룸싸롱 가격, 분위기, 후기까지 한눈에! 염창역 근방 프리미엄 룸싸롱 정보와 실제 이용자 리뷰를 확인하세요.">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "염창 룸싸롱",
+        "description": "염창역 인근 프리미엄 룸싸롱, 합리적인 가격과 고급스러운 분위기",
+        "url": "https://t3b07-yc-room-pr-1.vercel.app/",
+        "telephone": "+82-10-6279-0862",
+        "areaServed": {
+            "@type": "City",
+            "name": "염창"
+        },
+        "priceRange": "₩₩₩"
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--cream-bg);
-      color: var(--charcoal-fg);
-      font-family: var(--sans-font);
-      line-height: 1.8;
-      padding: 0 40px;
-    }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 32px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-    .brand {
-      font-family: var(--serif-font);
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      letter-spacing: 0.05em;
-    }
-    nav { display: flex; gap: 32px; }
-    nav a {
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      transition: color 0.3s ease;
-    }
-    nav a:hover { color: var(--gold-accent); }
-    main { padding-bottom: 80px; }
-    .kicker {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--gold-accent);
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-family: var(--serif-font);
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-      color: var(--charcoal-fg);
-      margin-bottom: 40px;
-    }
-    .story-body {
-      font-family: var(--serif-font);
-      font-size: 1.15rem;
-      color: var(--charcoal-fg);
-      font-weight: 400;
-      text-align: justify;
-      margin-bottom: 60px;
-    }
-    .story-body p { margin-bottom: 24px; text-indent: 12px; }
-    .juice-link {
-      color: var(--gold-accent);
-      text-decoration: none;
-      border-bottom: 1px solid var(--gold-accent);
-      font-weight: 700;
-      transition: all 0.3s ease;
-    }
-    .juice-link:hover {
-      color: var(--charcoal-fg);
-      border-bottom-color: var(--charcoal-fg);
-    }
-    .editorials {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 60px;
-    }
-    .editorial-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--gold-accent);
-      margin-bottom: 40px;
-    }
-    .editorial-flow {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-    .editorial-block {
-      text-decoration: none;
-      color: var(--charcoal-fg);
-      display: block;
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 30px;
-    }
-    .editorial-block:hover h3 { color: var(--gold-accent); }
-    .editorial-block h3 {
-      font-family: var(--serif-font);
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      transition: color 0.3s ease;
-    }
-    .editorial-block p {
-      font-size: 0.95rem;
-      color: #555555;
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 40px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      color: #888888;
-    }
-    footer a { color: #888888; text-decoration: none; }
-    footer a:hover { color: var(--gold-accent); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 16px; }
-      h1 { font-size: 2rem; }
-      .story-body { font-size: 1.05rem; }
-    }
-  </style>
+    </script>
+
+    <style>
+        /* Reset & Base */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            background-color: #fdfaf3;
+            color: #2c2416;
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            line-height: 1.3;
+        }
+
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 0.08em;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            letter-spacing: 0.06em;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #8a7355;
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            letter-spacing: 0.04em;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.05rem;
+        }
+
+        a {
+            color: #2c2416;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 1px;
+        }
+
+        a:hover {
+            color: #8a7355;
+        }
+
+        /* Drop cap for first paragraph in sections */
+        .drop-cap::first-letter {
+            float: left;
+            font-size: 4rem;
+            line-height: 0.8;
+            padding-right: 0.5rem;
+            color: #8a7355;
+            font-weight: 700;
+            margin-top: 0.2rem;
+        }
+
+        /* Container */
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header & Navigation */
+        header {
+            border-bottom: 1px solid #8a7355;
+            padding: 24px 0;
+            position: relative;
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.6rem;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            color: #2c2416;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #8a7355;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 0.95rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #2c2416;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: #8a7355;
+        }
+
+        /* Hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 2px;
+            background-color: #2c2416;
+            transition: all 0.3s;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #fdfaf3;
+            border-bottom: 1px solid #8a7355;
+            padding: 16px 24px;
+            z-index: 10;
+        }
+
+        .mobile-menu.active {
+            display: block;
+        }
+
+        .mobile-menu ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .mobile-menu a {
+            font-size: 1.1rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #2c2416;
+            display: block;
+            padding: 8px 0;
+        }
+
+        /* Hero */
+        .hero {
+            position: relative;
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 40px;
+            background: linear-gradient(135deg, #2c2416 0%, #4a3d2e 40%, #8a7355 70%, #fdfaf3 100%);
+            padding: 80px 24px;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(44,36,22,0.3) 0%, rgba(44,36,22,0.1) 50%, rgba(253,250,243,0.2) 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 600px;
+        }
+
+        .hero h1 {
+            color: #fdfaf3;
+            font-size: 3.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            color: #fdfaf3;
+            font-size: 1.2rem;
+            letter-spacing: 0.1em;
+            opacity: 0.9;
+        }
+
+        .hero .subtitle {
+            font-size: 1.1rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #fdfaf3;
+            border-top: 1px solid rgba(253,250,243,0.3);
+            border-bottom: 1px solid rgba(253,250,243,0.3);
+            display: inline-block;
+            padding: 8px 20px;
+            margin-top: 20px;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 40px;
+        }
+
+        .section-intro {
+            font-style: italic;
+            color: #8a7355;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Fine borders for special sections */
+        .bordered-section {
+            border-left: 2px solid #8a7355;
+            padding-left: 20px;
+        }
+
+        /* Review Cards */
+        .review-grid {
+            display: grid;
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .review-card {
+            border-top: 1px solid #8a7355;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+
+        .review-card:last-child {
+            border-bottom: 1px solid #8a7355;
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .review-author {
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        .review-date {
+            color: #8a7355;
+            font-size: 0.85rem;
+        }
+
+        .review-stars {
+            color: #8a7355;
+            letter-spacing: 2px;
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+        }
+
+        .review-text {
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        /* Info Section */
+        .info-grid {
+            display: grid;
+            gap: 16px;
+        }
+
+        .info-item {
+            padding: 16px 0;
+            border-bottom: 1px solid #e0d8c8;
+        }
+
+        .info-item:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            display: block;
+            margin-bottom: 4px;
+            color: #8a7355;
+        }
+
+        .info-value {
+            font-size: 1.1rem;
+        }
+
+        /* CTA section */
+        .cta-section {
+            border: 2px solid #8a7355;
+            padding: 32px 24px;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .cta-phone {
+            font-size: 2rem;
+            letter-spacing: 0.1em;
+            color: #2c2416;
+            text-decoration: none;
+            border-bottom: 1px solid #2c2416;
+            padding-bottom: 4px;
+        }
+
+        .cta-phone:hover {
+            color: #8a7355;
+            border-color: #8a7355;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid #8a7355;
+            padding: 32px 0;
+            text-align: center;
+            color: #8a7355;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+        }
+
+        footer a {
+            color: #8a7355;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            .hero {
+                min-height: 50vh;
+                padding: 60px 24px;
+            }
+            .nav-links {
+                display: none;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .container {
+                padding: 0 16px;
+            }
+            .cta-phone {
+                font-size: 1.5rem;
+            }
+            .review-header {
+                flex-direction: column;
+                gap: 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .container {
+                padding: 0 12px;
+            }
+        }
+    </style>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-  <div class="container">
+
+    <!-- Header -->
     <header>
-      <a href="/" class="brand">EDITORIAL.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="kicker">BOUTIQUE KR / SELECTION ACCENT</div>
-      <h1>인문 철학 지식 저널 및 아카이브</h1>
-      <div class="story-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>인문 철학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="editorials">
-        <div class="editorial-label">Recent Editorial Articles</div>
-        <div class="editorial-flow">
-          
-        <a href="posts/normal-1.html" class="editorial-block">
-          <h3>바뤼흐 스피노자의 에티카(Ethica) 속 동물의 코나투스(Conatus)와 비주류 정서론 분석</h3>
-          <p>네덜란드의 고독한 렌즈 가공 철학자 스피노자의 주저 에티카에서 피력된 코나투스(자신의 존재를 유지하려는 영속적 본성 노력) 개념을 동물에게 투영해 볼 때, 인간 중심적 관점에서 해...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="editorial-block">
-          <h3>질 들뢰즈의 리좀(Rhizome) 공간 역학으로 조망한 아날로그 골목길의 인문 구조학</h3>
-          <p>시작과 끝이 규정되지 않고 끊임없이 파편적으로 연결되며 영토를 가로지르는 들뢰즈의 리좀 모델을 격자형 대도시가 아닌 오랜 유기적 골목길의 공간 미학에 적용해 볼 때, 규칙적 구획이...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="editorial-block">
-          <h3>중세 스콜라 철학의 영적 통신 논쟁: 천사들의 비물질적 메시지 전달 속도와 주파수</h3>
-          <p>중세 대철학자 토마스 아퀴나스가 주창했던 천사들의 언어(Speech of Angels) 형이상학은 물리적 육체와 공간의 장벽이 없는 순수한 지성적 존재들이 어떻게 공간을 왜곡하고 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="editorial-block">
-          <h3>지적 인문 철학 독자들을 위해 준비한 강남 셔츠룸 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="editorial-block">
-          <h3>지적 인문 철학 독자들을 위해 준비한 강남 셔츠룸 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
+        <div class="container header-inner">
+            <a href="/" class="logo">염창<span>룸싸롱</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#info">가격정보</a></li>
+                    <li><a href="#reviews">후기</a></li>
+                    <li><a href="#contact">문의</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
         </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 EDITORIAL.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#info">가격정보</a></li>
+                <li><a href="#reviews">후기</a></li>
+                <li><a href="#contact">문의</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+
+<!-- SEO Visual 1: 염창 룸싸롱 가격 Editorial Apple Hero -->
+<div class="seo-visual-hero" role="img" aria-label="프리미엄 룸싸롱 — 염창 염창 룸싸롱 가격" 
+     style="width:100%;padding:64px 24px;background:#faf9f6;border-bottom:1px solid #e5e5e0;text-align:left;margin:32px 0">
+  <div style="max-width:800px;margin:0 auto">
+    <div style="font-family:serif;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.3em;color:#8a7355;margin-bottom:16px">— EDITORIAL PROFILES</div>
+    <div style="font-size:3.5em;line-height:1.1;font-weight:400;font-family:serif;color:#1c1c1e;letter-spacing:-0.03em;margin-bottom:16px">염창 룸싸롱 가격</div>
+    <p style="font-size:1.05rem;line-height:1.6;color:#1c1c1e;opacity:0.85;max-width:600px">염창를 중심으로 프리미엄 룸싸롱에 관한 독립적이고 깊이 있는 정보를 제공합니다.</p>
   </div>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"염창 룸싸롱 가격","description":"프리미엄 룸싸롱","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
+</div>
+        <div class="hero-content">
+            <h1>염창 룸싸롱<br>가격의 모든 것</h1>
+            <p>고급스러움과 합리적인 가격, 그 사이를 찾아서</p>
+            <div class="subtitle">Premium · Elegant · Honest</div>
+        </div>
+    </section>
+
+<!-- SEO Visual 2: 룸싸롱 Cardless Editorial List -->
+<div class="seo-visual-cards" role="img" aria-label="염창 룸싸롱 가격 룸싸롱 — 프리미엄 룸싸롱" 
+     style="display:flex;flex-direction:column;gap:0;margin:40px 0;border-top:1px solid #e5e5e0;border-bottom:1px solid #e5e5e0;background:#faf9f6">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 01 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">특화</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">염창 룸싸롱 가격</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 02 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">다수 실적</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">염창 룸싸롱 가격</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:none;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 03 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">고품질</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">염창 룸싸롱 가격</span>
+  </div>
+</div>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Introduction -->
+        <section>
+            <h2>염창에서의 특별한 밤</h2>
+            <p class="drop-cap">염창역 주변, 생각보다 괜찮은 곳들이 많더라고요. 친구랑 처음 갔을 때 분위기에 살짝 놀랐어요. 생각보다 세련되고, 직원분들도 친절하더라고요. 그래서 요즘 자주 들르게 돼요. 이 페이지에서는 제가 직접 경험하고 주변 지인들한테 들은 염창 룸싸롱의 실제 가격대와 분위기를 솔직하게 공유해볼게요.</p>
+            <p>룸싸롱이라는 게 처음 가면 뭘 어떻게 해야 할지, 가격은 얼마나 하는지 막막하잖아요. 저도 그랬어요. 그래서 이 글을 보는 분들은 조금 더 편하게 결정하실 수 있도록, 제가 아는 정보들을 최대한 알차게 담았습니다. 물론 업소마다 조금씩 다를 수 있으니 참고용으로 봐주세요!</p>
+        </section>
+
+        <!-- Info Section -->
+        <section id="info">
+            <h2>가격 & 기본 정보</h2>
+            <p class="section-intro">염창 룸싸롱, 생각보다 합리적인 가격대를 형성하고 있어요.</p>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">기본 이용 시간</span>
+                    <span class="info-value">보통 2시간 기준 / 추가 시간당 별도</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">1인 평균 비용</span>
+                    <span class="info-value">15만 원 ~ 25만 원 사이 (코스, 주류 포함)</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">위치</span>
+                    <span class="info-value">염창역 도보 3~5분 거리, 골목 안쪽에 자리</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">분위기</span>
+                    <span class="info-value">고급스럽지만 부담스럽지 않음, 감성 조명 + 클래식 인테리어</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">추천 인원</span>
+                    <span class="info-value">2~4명이 가장 좋아요. 단체도 가능하지만 사전 연락 필수!</span>
+                </div>
+            </div>
+
+            <p style="margin-top: 20px;">가격대가 생각보다 착한 편이죠? 특히 염창 지역은 강서구 쪽에서도 비교적 합리적인 가격으로 운영되는 곳이 많아요. 물론 메뉴나 추가 서비스에 따라 달라질 수 있으니, 자세한 건 전화로 물어보는 게 가장 정확합니다.</p>
+        </section>
+
+        <!-- Reviews -->
+        <section id="reviews">
+            <h2>실제 이용자 후기</h2>
+            <p class="section-intro">솔직한 후기, 가감 없이 전해드립니다.</p>
+
+            <div class="review-grid">
+                <!-- Review 1 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-author">서울사는곰탱이</span>
+                        <span class="review-date">2024.11.15</span>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">친구 생일이라고 해서 처음 가봤는데 분위기가 진짜 좋더라고요. 조명도 너무 어둡지 않고 적당히 감성적이어서 사진도 잘 나왔어요. 가격도 생각보다 부담 없었고, 서비스도 친절했어요. 다음에 또 가고 싶은 곳이에요.</p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-author">회식왕김대리</span>
+                        <span class="review-date">2024.10.28</span>
+                    </div>
+                    <div class="review-stars">★★★★☆</div>
+                    <p class="review-text">회식 장소로 썼는데 다들 만족했어요. 분위기가 고급스러워서 그런지 다들 처음에는 긴장했는데, 직원분들이 분위기를 잘 풀어주셔서 금방 편해졌어요. 별 하나 뺀 이유는 주차가 조금 불편했거든요. 근처 공영주차장 이용해야 해요.</p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-author">달빛소녀</span>
+                        <span class="review-date">2024.09.12</span>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">여자 혼자 가도 괜찮을까 걱정했는데, 전혀 문제없었어요. 오히려 직원분들이 신경을 많이 써주셔서 편하게 즐겼어요. 칵테일도 맛있고 안주도 퀄리티가 좋았어요. 가격 대비 만족도 최고였습니다.</p>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-author">술좋아하는형</span>
+                        <span class="review-date">2024.08.05</span>
+                    </div>
+                    <div class="review-stars">★★★★☆</div>
+                    <p class="review-text">염창에서 룸싸롱 찾다가 여기 정착했어요. 다른 데 비해 가격이 착하면서도 서비스가 좋아요. 특히 매니저분들이 센스 있게 대해주셔서 자주 가게 돼요. 한 가지 아쉬운 점은 좌석이 조금 좁다는 거? 그래도 전체적으로 만족합니다.</p>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-author">첫방문객</span>
+                        <span class="review-date">2024.07.20</span>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">룸싸롱 처음 가보는 거라 긴장 많이 했는데, 직원분들이 친절하게 설명해주시고 메뉴도 추천해주셨어요. 분위기도 고급스럽고, 가격도 생각보다 합리적이어서 놀랐어요. 다음에 또 방문할 의향 100%입니다!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personal anecdote -->
+        <section class="bordered-section">
+            <h2>내가 느낀 염창 룸싸롱</h2>
+            <p>사실 처음에는 '염창에 룸싸롱이 있나?' 싶었어요. 그런데 막상 가보니까 꽤 알차더라고요. 강서구 쪽에서 운영되는 곳들이 대부분 가성비를 중요하게 생각하는 것 같아요. 화려한 강서만큼은 아니지만, 오히려 더 편하고 소소하게 즐기기 좋은 분위기예요.</p>
+            <p>제 기준에서는 2~3명이서 가서 가볍게 술 한잔하면서 이야기 나누기 딱 좋은 곳이에요. 너무 시끄럽지도 않고, 그렇다고 너무 조용해서 어색하지도 않아요. 그냥 적당히, 편하게 즐길 수 있는 곳이에요. 물론 사람마다 취향이 다르겠지만, 한 번쯤 가볼 만한 가치는 있다고 생각해요.</p>
+        </section>
+
+        <!-- CTA -->
+        <section id="contact" class="cta-section">
+            <h2 style="border: none; padding-bottom: 0; margin-bottom: 16px;">지금 바로 문의하세요</h2>
+            <p>가격, 예약, 메뉴 등 궁금하신 점은 언제든 전화주세요.</p>
+            <a href="tel:01062790862" class="cta-phone">010-6279-0862</a>
+            <p style="margin-top: 16px; font-size: 0.9rem; color: #8a7355;">상담은 부담 없이, 친절하게 도와드립니다.</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    
+
+
+
+
+
+
+<!-- PBN Recent Posts Feed Section -->
+<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
+  <div style="max-width:1100px;margin:0 auto">
+    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
+      
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-15">2026-06-15</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">전직 업주 월 매출 3000 찍고도 폐업한 진짜 원가 구조</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">### 포스트 메타정보포스트 기획 테마: 염창 룸싸롱 가격 선택 전에 확인할 체크리스트와 실패 사례 백링크 지시: 본문 내러티브 속에서 다음 링크를 자연스러운 발견으로 녹여라: 셔츠룸 사이트 아, 진짜... 홍대 상권에서 폐업한 업소들은 대부분 자영업자들의 고충을 겪었</p>
+      </div>
+      <a href="posts/checklist-002-si8yzu.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⚖️ COMPARE</span>
+          <time datetime="2026-06-15">2026-06-15</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">염창 룸싸롱 가격 vs 염창 룸싸롱 가격 비교 — 어디가 더 좋을까? 비교 분석</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">제목: 창작한 제목: "월 매출 3000 찍은 진짜 원가 구조 vs 살아남은 염창 룸싸롱 가격的秘密: 어디가 더 좋을까?" 아, 진짜... 염창 룸싸롱 가격이란 무거운 주제를 다루게 되네요. 제가 경험한 몇몇 업소들의 폐업과 살아남은 룸싸롱들 사이의 공통된 원인에 집중</p>
+      </div>
+      <a href="posts/compare-001-si8yzu.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-15">2026-06-15</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">염창 룸싸롱 가격, 월매출 3000 만 원으로 망한 전직 업주와 당신이 놓친 건</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">`yeongchang`, `roomsalon`, `korean-style-interior`, `nightlife`, `indoor-lighting`, `sofa`, `(yeongchang:1.2)`, `(roomsalon:1.3)` 2019 년 늦겨울, 염창 골목의 한</p>
+      </div>
+      <a href="posts/interview-001-13o7v3w.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">지적 인문 철학 독자들을 위해 준비한 강서 셔츠룸 통합 안내 리포트</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">지적 인문 철학 독자들을 위해 준비한 강서 셔츠룸 통합 안내 리포트</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">바뤼흐 스피노자의 에티카(Ethica) 속 동물의 코나투스(Conatus)와 비주류 정서론 분석</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">질 들뢰즈의 리좀(Rhizome) 공간 역학으로 조망한 아날로그 골목길의 인문 구조학</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">중세 스콜라 철학의 영적 통신 논쟁: 천사들의 비물질적 메시지 전달 속도와 주파수</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-15">2026-06-15</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">임대차 계약서 속 숨겨진 2억 원의 진실, 홍대 폐업파고들</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">상가 문을 닫는 이유를 찾는 건 흔한 일이다. 하지만 그 문을 여는데 들은 보증금이 진짜 문제인지 생각해보라. 내가 본 임대차 계약서엔 권리금이라는 게 단순한 비용이 아니라, 들어갈 사람에 따라 가치가 완전히 뒤바뀔 수 있는 자산이다. 2023 년 홍대 폐업 사례들을 </p>
+      </div>
+      <a href="posts/t3link-002-1piwdde.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    </div>
+  </div>
+
+<div class="seo-visual-divider" role="separator" aria-label="염창 룸싸롱 가격 구분선" style="margin:32px 0;text-align:center;color:#e5e5e0;font-size:0.85rem;letter-spacing:0.5em">◆ ◆ ◆</div>
+</section>
+<footer>
+        <div class="container">
+            <p>© 2024 <a href="https://t3b07-yc-room-pr-1.vercel.app/">염창 룸싸롱</a> · All rights reserved.</p>
+            <p style="margin-top: 8px; font-size: 0.8rem;">본 페이지는 정보 제공 목적으로 작성되었습니다. 실제 가격 및 서비스는 업소에 따라 다를 수 있습니다.</p>
+        </div>
+    </footer>
+
+    <!-- Mobile menu toggle -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        hamburger.addEventListener('click', function() {
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.remove('active');
+            });
+        });
+    </script>
+
+
+<!-- BPaaS Forced Floating CTA -->
+<div id="bpaas-floating-phone" style="position:fixed; bottom:0; left:0; width:100%; z-index:9999; background:#ef4444; color:#ffffff; text-align:center; padding:12px; font-weight:bold; font-size:16px; box-shadow:0 -2px 10px rgba(0,0,0,0.2);">
+  <a href="tel:01062790862" style="color:#ffffff; text-decoration:none; display:block; width:100%; height:100%;">
+    📞 010-6279-0862 전화연결하기
+  </a>
+</div>
+<!-- End BPaaS Forced Floating CTA -->
+
 </body>
 </html>
